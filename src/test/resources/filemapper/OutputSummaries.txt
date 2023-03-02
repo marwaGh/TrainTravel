@@ -1,0 +1,32 @@
+{
+  "customerSummaries" : [ {
+    "customerId" : 1,
+    "totalCostInCents" : 480,
+    "trips" : [ {
+      "stationStart" : "A",
+      "stationEnd" : "D",
+      "startedJourneyAt" : 1,
+      "costInCents" : 240,
+      "zoneFrom" : 1,
+      "zoneTo" : 2
+    }, {
+      "stationStart" : "D",
+      "stationEnd" : "A",
+      "startedJourneyAt" : 3,
+      "costInCents" : 240,
+      "zoneFrom" : 2,
+      "zoneTo" : 1
+    } ]
+  }, {
+    "customerId" : 2,
+    "totalCostInCents" : 200,
+    "trips" : [ {
+      "stationStart" : "E",
+      "stationEnd" : "H",
+      "startedJourneyAt" : 1,
+      "costInCents" : 200,
+      "zoneFrom" : 3,
+      "zoneTo" : 4
+    } ]
+  } ]
+}
