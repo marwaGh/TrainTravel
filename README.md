@@ -7,11 +7,10 @@ This Program takes two parameters:
 
 ## Build
 On the parent pom run :
-- `mvn install` — it will compile, package and run all the tests suites.
+- `mvn install` it will compile, package and run all the tests suites.
 
 ## Run
 
 To run this program use :
 
-- `java -jar target/train-travel-1.0-SNAPSHOT-jar-with-dependencies.jar inputfilepath outputfilepath`
-
+- `java -jar fatjarpath inputfilepath outputfilepath`
